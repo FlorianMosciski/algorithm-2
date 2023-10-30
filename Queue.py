@@ -1,5 +1,5 @@
 class FullException(Exception):
-    def __init__(self):
+!   def __init__(self):
         Exception.__init__(self)
 
 
@@ -42,3 +42,4 @@ class Queue:
 
     def capacity(self):
         return self.size - 1
+ 
